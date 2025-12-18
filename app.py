@@ -7,7 +7,7 @@ st.set_page_config(page_title="PH Smoking Cessation Dashboard", layout="wide")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:\\Users\\Kirbs\\Desktop\\BSIT_3A\\LAURENTE_DASHB\\cleaned_cessation_data.csv")
+    return pd.read_csv("cleaned_cessation_data.csv")
 
 df = load_data()
 
